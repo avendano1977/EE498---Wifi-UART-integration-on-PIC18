@@ -1,6 +1,6 @@
-// Title: UART_ESP8266
+// Title: UART_ESP-01
 // Purpose: In this project we used use the UART connection of the PIC18F46k42
-// to send AT commands to a ESP8266 which is connected to a ThingSpeak server.
+// to send AT commands to a ESP-01 which connects to a ThingSpeak server via WIFI.
 // Compiler: MPLAB X IDE XC8 v6.05
 // Author: Oscar Avendano
 // Input: None
