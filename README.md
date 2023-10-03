@@ -1,1 +1,1 @@
-# EE498---Wifi-UART-integration-on-PIC18
+# EE498---UART to ESP-01 integration on PIC18
