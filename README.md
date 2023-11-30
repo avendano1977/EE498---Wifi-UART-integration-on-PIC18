@@ -13,8 +13,7 @@ You will need the following before beggining:
    ![image](https://github.com/avendano1977/EE498---Wifi-UART-integration-on-PIC18/assets/80984104/ff51e7fa-b261-42db-acf9-1fa1296049d6)
 2. The next step is configure the ESP-01 module by itself and send data to ThingSpeak. Follow the tutorial to configure ThingSpeak and the ESP-01 module: file:///C:/Users/oscar/Downloads/ESP8266%20-%20Interface%20(1).pdf. At this point you should see the data sent from the ESP-01 being plotted on ThingSpeak. ![image](https://github.com/avendano1977/EE498---Wifi-UART-integration-on-PIC18/assets/80984104/debeaae9-37a2-48d4-a63d-48f458892083)
 3. Now that we have finished configuring the PIC18F46K42, ESP-01, and ThingSpeak we can integrate all three in order to create a very basic IoT system. Follow the schematic shown below.
-   file:///C:/Users/oscar/Downloads/Schematic_EE498%20-%20ESP-01%20WIFI%20integration%20with%20PIC18F46k42_2023-10-03%20(1).pdf 
 Once the connections are correct execeute the UART-ESP-01.c file and make sure to add in your own WiFi connection details. At this point the project has been completed and the opportunities are endless. Try connecting a sensor and sending data to ThingSpeak to visualize it! While there is only bidirectionality to check whether the initial connection between the ESP-01 and PIC is solid, try to see if you can receeive input from ThingSpeak for remote control!
  
+![image](file:///C:/Users/oscar/Downloads/Schematic_EE498%20-%20ESP-01%20WIFI%20integration%20with%20PIC18F46k42_2023-10-03%20(1).pdf)
 
-[Schematic_EE498 - ESP-01 WIFI integration with PIC18F46k42_2023-10-03 (1).pdf](https://github.com/avendano1977/EE498---Wifi-UART-integration-on-PIC18/files/13515675/Schematic_EE498.-.ESP-01.WIFI.integration.with.PIC18F46k42_2023-10-03.1.pdf)
