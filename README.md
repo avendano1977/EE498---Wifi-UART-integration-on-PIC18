@@ -24,5 +24,5 @@ Now you can execture the UART-Serial Monitor.c file and communcite serially with
    
 3. Now that we have finished configuring the PIC18F46K42, ESP-01, and ThingSpeak we can integrate all three in order to create a very basic IoT system. Follow the schematic shown below. Once the connections are correct execeute the UART-ESP-01.c file and make sure to add in your own WiFi connection details. At this point the project has been completed and the opportunities are endless. Try connecting a sensor and sending data to ThingSpeak to visualize it! While there is only bidirectionality to check whether the initial connection between the ESP-01 and PIC is solid, try to see if you can receive input from ThingSpeak for remote control!
  
-![Schematic_EE498 - ESP-01 WIFI integration with PIC18F46k42_2023-11-30](https://github.com/avendano1977/EE498---Wifi-UART-integration-on-PIC18/assets/80984104/e624561b-9b01-454c-8e57-a25b7ceb9f70)
+![Schematic_EE498 - ESP-01 WIFI integration with PIC18F46k42_2023-11-30 (2)](https://github.com/avendano1977/EE498---Wifi-UART-integration-on-PIC18/assets/80984104/49df0280-64fe-47ba-b4cd-4e6416abf4cd)
 
