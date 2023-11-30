@@ -13,7 +13,6 @@
 #include <string.h>
 #include <stdlib.h>
 #include <time.h>
-#include "esp8266.h"
 #include <xc.h> 
 #define _XTAL_FREQ 4000000      // Fosc  frequency for _delay()  library
 #define FCY    _XTAL_FREQ/4     // system clock is 1 usec                                                        
@@ -98,7 +97,7 @@ bool esp8266_status()
     
 }
 
-// Send data to ThingSpeak using ESP8266 module
+// Send data to ThingSpeak using ESP-01 module
 void SendDataToThingSpeak(int Value) 
 {
     // Declare variables
