@@ -9,13 +9,16 @@ You will need the following before beggining:
 - 3.3 V Power Source (power supply or battery is fine)
   
 
-1. The first step we must follow is to configure the UART connection on our PIC microcontoller. Follow this tutorial to configure UART using the MCC function on MPLABX: https://docs.google.com/presentation/d/1JKKtNu3tkO9oB1XLOM3FUndg2SQ4MABi4Z2qnZM9kFc/edit#slide=id. Once configured you should have the following files. Now you can execture the UART-Serial Monitor.c file and communcite serially with the PIC. Make sure the connections are as shown in the schematic below.
-
-
-![Schematic_EE498 - ESP-01 WIFI integration with PIC18F46k42_2023-11-30 (1)](https://github.com/avendano1977/EE498---Wifi-UART-integration-on-PIC18/assets/80984104/fdca459b-2008-4aa4-be2f-c35fa467eaac)
+1. The first step we must follow is to configure the UART connection on our PIC microcontoller. Follow this tutorial to configure UART using the MCC function on MPLABX: https://docs.google.com/presentation/d/1JKKtNu3tkO9oB1XLOM3FUndg2SQ4MABi4Z2qnZM9kFc/edit#slide=id. Once configured you should have the following files. 
 
    
    ![image](https://github.com/avendano1977/EE498---Wifi-UART-integration-on-PIC18/assets/80984104/ff51e7fa-b261-42db-acf9-1fa1296049d6)
+
+
+Now you can execture the UART-Serial Monitor.c file and communcite serially with the PIC. Make sure the connections are as shown in the schematic below.
+
+
+![Schematic_EE498 - ESP-01 WIFI integration with PIC18F46k42_2023-11-30 (1)](https://github.com/avendano1977/EE498---Wifi-UART-integration-on-PIC18/assets/80984104/fdca459b-2008-4aa4-be2f-c35fa467eaac)
    
 2. The next step is configure the ESP-01 module by itself and send data to ThingSpeak. Follow the tutorial to configure ThingSpeak and the ESP-01 module: file:///C:/Users/oscar/Downloads/ESP8266%20-%20Interface%20(1).pdf. At this point you should see the data sent from the ESP-01 being plotted on ThingSpeak. ![image](https://github.com/avendano1977/EE498---Wifi-UART-integration-on-PIC18/assets/80984104/debeaae9-37a2-48d4-a63d-48f458892083)
    
